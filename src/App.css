@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.img-container {
+  width: 500px;
+  margin-bottom: 20px;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.product-name {
+  font-size: 2rem;
+}
+
+#second {
+  font-weight: 900;
+  color: red;
+  font-size: 1.5rem;
+}
+#btn {
+  padding: 15px;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(69, 229, 69);
+  cursor: pointer;
+}
